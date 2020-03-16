@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Company Website</title>
+	<meta charset="utf-8">
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header class="container-fluid bg-dark text-white">
+		<div class="container pt-3">
+			<div class="row">
+				<div class="col-md-4">
+					<h1><span id="logo"> Academy</span> Tranining</h1>
+				</div>
+				<div class="col-md-4 offset-md-4">
+					<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+						<div class="collapse navbar-collapse" id="navbarsExample03">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item dropdown">
+									<a class="nav-link smoothScroll" href="#logo" id="dropdown01">Home</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+									<div class="dropdown-menu" aria-labelledby="dropdown03">
+										<a class="dropdown-item smoothScroll" href="#Program">Programming Courses</a>
+										<a class="dropdown-item smoothScroll" href="#graphic">Graphic Design Courses</a>
+										<a class="dropdown-item smoothScroll" href="#">Marketing Courses</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="dropdown03">About</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" href="#" id="dropdown04">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container bd text-white">
+		<div class="row ">
+			<div class="mt-5 ml-5 pt-5 font">
+				<b> Learn today, to drive tomorrow<br>
+					Learn .. develop ... and achieve your <br>
+					success with the 
+					<span id="logo">Academy</span> Tranining!</b>			
+				</div>	
+			</div>	
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="slides">
+						<img class="mySlides" src="img/program.png" >
+						<img class="mySlides" src="img/Design.png" >
+						<img class="mySlides" src="img/market1.png">
+					</div>
+				</div>
+				<div class="col-md-5 ml-4 text-center bg-white">
+					<h3 id="courses" class="mt-3">Courses</h3>
+					<h5>Programming Courses</h5>
+					<p>
+						<span>Full Stack(PHP)</span><br>
+						<span>Java</span><br>
+						<span>Paython</span>
+					</p>
+					<h5>Graphic Design Courses</h5>
+					<p>
+						<span>Affinity Designe</span><br>
+						<span>Adobe Illustrator CC</span><br>
+						<span>CorelDRAW Graphics Suite</span>
+					</p>
+					<h5 class="pb-2">Marketing Courses</h5>
+				</div>
+			</div>
+			<div class="mt-5 bg-white text-center">
+				<h3 id="Program" class="pt-4 pb-4">Programming Courses</h3>
+				<div class="row">
+					<div class="col-md-4">
+						<h4 >Full Stack (PHP)</h4>
+						<img src="img/php.png" width="100%" class="pl-3">
+						<p class="text-justify p-3">
+							PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.<br>
+							PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.<br>
+							PHP 7 is the latest stable release.<br><br>
+							tutorial :
+						</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<ul class="text-left">
+									<li>HTML</li>
+									<li>html5</li>
+									<li>CSS</li>
+									<li>Bootstrap</li>
+									<li>Bootstrap4</li>
+									<li>CSS3</li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<ul class="text-left">
+									<li>JavaScript</li>
+									<li>jQuery</li>
+									<li>jQuery UI</li>
+									<li>Database</li>
+									<li>PHP</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4>Java</h4>
+						<img src="img/java.png" width="100%" height="240" class="pr-3">
+						<p class="text-justify pt-3 pr-3">
+							Java is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. 
+							<br><br><br>
+							tutorial :
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h4>Paython</h4>
+						<img src="img/python.png" width="100%" height="240" class="pr-3">
+						<p class="text-justify pt-3 pr-3">
+							Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+							You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs. Learn more about Python..
+							<br><br><br>
+							tutorial :
+						</p>
+					</div>
+				</div>
+			</div>
+			<br><br><br>
+			<div class="container bg-white" id="graphic">
+				<h3 class="text-center">Affinity Designe</h3>
+				<div class="row  pt-5 text-center">
+					<div class="col-md-4 ">
+						<h4>Affinity Designe</h4>
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<img class="fl" src="img/affinity.png" alt="Avatar">
+								</div>
+								<div class="flip-card-back">
+									<h1>John Doe</h1> 
+									<p>Architect & Engineer</p> 
+									<p>We love that guy</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<h4>Adobe Illustrator</h4>
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<img class="fl" src="img/design.png" alt="Avatar" >
+								</div>
+								<div class="flip-card-back">
+									<h1>John Doe</h1> 
+									<p>Architect & Engineer</p> 
+									<p>We love that guy</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ">
+						<h4>CorelDRAW Graphics Suite</h4>
+						<div class="flip-card">
+							<div class="flip-card-inner">
+								<div class="flip-card-front">
+									<img class="fl" src="img/program.png" alt="Avatar" >
+								</div>
+								<div class="flip-card-back">
+									<h1>John Doe</h1> 
+									<p>Architect & Engineer</p> 
+									<p>We love that guy</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+
+			</div>
+		</div>
+	</body>
+	</html>
